@@ -10,5 +10,8 @@ import com.kenhome.jaspersoft.service.FtpService;
  */
 public class FtpServiceImpl implements FtpService {
 
-
+    @Override
+    public boolean exportUser(String userId) {
+        return false;
+    }
 }

@@ -7,4 +7,6 @@ package com.kenhome.jaspersoft.service;
  * @Modified By:
  */
 public interface FtpService {
+
+   boolean exportUser(String userId);
 }
