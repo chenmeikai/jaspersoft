@@ -17,13 +17,13 @@ import java.net.MalformedURLException;
  */
 public class FtpUtils {
     //ftp服务器地址
-    public String hostname = "192.168.1.249";
+    public String hostname = "120.79.35.34";
     //ftp服务器端口号默认为21
     public Integer port = 21;
     //ftp登录账号
-    public String username = "root";
+    public String username = "css";
     //ftp登录密码
-    public String password = "123";
+    public String password = "css123";
 
     public FTPClient ftpClient = null;
 
